@@ -1,0 +1,288 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+html {
+	font-size: 17px !important;
+}
+
+@media (max-width: 1268px) {
+	html {
+		font-size: 14px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 13px !important;
+	}
+}
+
+body {
+	font-family: 'Poppins', sans-serif !important;
+	color: #000000;
+	background-color: #ffffff;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark body {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Jost', sans-serif !important;
+}
+
+.title {
+	font-family: 'Jost', sans-serif !important;
+}
+
+.section {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navbar {
+	z-index: 49 !important;
+}
+
+.fp-watermark {
+	display: none !important;
+}
+
+/* Gradient Text */
+.gradient-text {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+html.dark .gradient-text {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/* Smooth Scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Focus Styles for Accessibility */
+:focus {
+	outline: 2px solid #667eea;
+	outline-offset: 2px;
+}
+
+/* html.dark :focus {
+	outline: 2px solid #667eea;
+	outline-offset: 2px;
+} */
+
+/* Enhanced Button Styles */
+button {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	font-family: 'Jost', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus-visible {
+	outline: none;
+}
+
+/* Link styling inside buttons */
+button a, button span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Section styling improvements */
+.section {
+	position: relative;
+	overflow: hidden;
+}
+
+.section::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: radial-gradient(circle at top right, rgba(147, 51, 234, 0.05) 0%, transparent 50%),
+	            radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+	pointer-events: none;
+	z-index: 0;
+}
+
+html.dark .section::before {
+	background: radial-gradient(circle at top right, rgba(147, 51, 234, 0.02) 0%, transparent 50%),
+	            radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.02) 0%, transparent 50%);
+}
+
+/* Text selection styling */
+::selection {
+	background-color: #667eea;
+	color: white;
+}
+
+html.dark ::selection {
+	background-color: #667eea;
+	color: white;
+}
+
+
+/* h2, h3, h4, h5, h6 {
+	@apply text-gray-600;
+} */
+
+span {
+	font-family: "Jost", sans-serif;
+}
+
+li {
+	@apply list-none relative;
+}
+
+li.active:after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #ffffff;
+
+
+}
+
+td, th {
+	@apply py-2 px-3;
+}
+
+
+a[title]:hover:after {
+	margin-left: -100px;
+	margin-top: -50px;
+	position: absolute;
+	content: attr(title);
+	padding: 0.5rem;
+	white-space: nowrap;
+	z-index: 1;
+	background-color: #333333;
+	color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	font-size: 0.8rem;
+}
+
+html.dark a[title]:hover:after {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+::selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+html.dark ::selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+/* Dark mode transitions for text and backgrounds */
+html.dark {
+	color-scheme: dark;
+	background-color: #000000;
+}
+
+html.dark body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6 {
+	color: #ffffff;
+}
+
+html.dark p {
+	color: #e5e7eb;
+}
+
+html.dark a {
+	color: #ffffff;
+}
+
+html.dark a:hover {
+	color: #6bb3ff;
+}
+
+/* Form elements dark mode */
+html.dark input,
+html.dark textarea,
+html.dark select {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	border-color: #333333;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+	color: #666666;
+}
+
+html.dark input:focus,
+html.dark textarea:focus,
+html.dark select:focus {
+	border-color: #4a9eff;
+	box-shadow: 0 0 0 3px rgba(74, 158, 255, 0.1);
+}
+
+/* Button dark mode */
+html.dark button {
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Table dark mode */
+html.dark table {
+	color: #ffffff;
+}
+
+html.dark th {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+html.dark td {
+	border-color: #333333;
+	color: #e5e7eb;
+}
+
+::selection {
+	background: #333333;
+	color: #fff;
+}
