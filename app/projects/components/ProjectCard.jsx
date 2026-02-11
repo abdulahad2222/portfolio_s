@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import BlurImage from "@/public/image/placeholder/blur.jpg";
+const BlurImage = "/image/placeholder/blur.jpg";
 
 const colorThemes = {
 	blue: {
@@ -142,18 +142,16 @@ export default function ProjectCard({ project, index, activeCategory, theme = "f
 							alt={project.title}
 							layout="fill"
 							objectFit="cover"
-							placeholder="blur"
 							className="bg-slate-950 opacity-15 group-hover/card:opacity-100 transition-all ease duration-500"
-							blurDataURL={BlurImage.src}
 						/>
 						<div className="absolute top-0 left-0 z-20">
-	<div className="relative">
-		{/* Soft glow */}
-		<div className="absolute inset-0 rounded-2xl blur-md bg-white/25" />
+							<div className="relative">
+								{/* Soft glow */}
+								<div className="absolute inset-0 rounded-2xl blur-md bg-white/25" />
 
-		{/* Badge */}
-		<div
-			className="
+								{/* Badge */}
+								<div
+									className="
 				relative flex items-center justify-center
 				w-22 h-8 m-2
 				rounded-2xl
@@ -163,13 +161,13 @@ export default function ProjectCard({ project, index, activeCategory, theme = "f
 				ring-1 ring-white/40
 				shadow-[0_0_25px_rgba(255,255,255,0.16)]
 			"
-		>
-			<span className="text-white font-bold text-sm tracking-widest">
-				{project.year}
-			</span>
-		</div>
-	</div>
-</div>
+								>
+									<span className="text-white font-bold text-sm tracking-widest">
+										{project.year}
+									</span>
+								</div>
+							</div>
+						</div>
 
 						<div className="transition-all ease duration-500 opacity-100 content text-center group-hover/card:opacity-0 z-10">
 							<h1 className="text-3xl font-bold mb-3 text-black dark:text-white drop-shadow-lg">{project.title}</h1>

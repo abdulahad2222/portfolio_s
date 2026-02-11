@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
-import BlurImage from "@/public/image/placeholder/blur.jpg";
+const BlurImage = "/image/placeholder/blur.jpg";
 import FixedButon from "@/components/FixedButton";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
@@ -153,7 +153,7 @@ function ProjectContent({ data }) {
                             className="mb-5 h-auto max-h-screen max-w-7xl mx-auto"
                             width={1920}
                             height={1080}
-                            blurDataURL={BlurImage.src}
+                            blurDataURL={BlurImage}
                             layout="responsive"
                             objectFit="contain"
                         />

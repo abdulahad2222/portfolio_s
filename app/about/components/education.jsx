@@ -21,9 +21,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import Me4 from "@/public/image/me4.jpeg";
-import Me5 from "@/public/image/me5.jpg";
-import Me6 from "@/public/image/me6.jpg";
+const Me4 = "/image/me4.png";
+const Me5 = "/image/me5.png";
+const Me6 = "/image/me6.png";
 
 function Wrapper({ children }) {
 	return (
@@ -222,10 +222,10 @@ export default function Education() {
 								</div>
 							</div>
 							<div className="flex items-center gap-2">
-							<p className="text-gray-600 dark:text-gray-300 text-justify title text-lg">
-								Aspiring to grow as a professional Software Engineer, I am currently
-								pursuing my
-								<span className="text-black dark:text-white font-medium">
+								<p className="text-gray-600 dark:text-gray-300 text-justify title text-lg">
+									Aspiring to grow as a professional Software Engineer, I am currently
+									pursuing my
+									<span className="text-black dark:text-white font-medium">
 										{" "}Master of Computer Applications (MCA)
 									</span>{" "}
 									from
@@ -293,38 +293,38 @@ export default function Education() {
 								<AnimatePresence>
 									{visibleAchievements.map((achievement, index) => (
 										<motion.div
-  key={`${achievement.year}-${index}`}
-  className="group"
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  exit={{ opacity: 0, y: -20 }}
-  transition={{ duration: 0.5, delay: index * 0.05 }}
->
-  {/* Year indicator */}
-  {index === 0 ||
-  visibleAchievements[index - 1]?.year !== achievement.year ? (
-    <div className="flex items-center gap-3 mb-3 mt-2">
-      <div className="
+											key={`${achievement.year}-${index}`}
+											className="group"
+											initial={{ opacity: 0, y: 20 }}
+											animate={{ opacity: 1, y: 0 }}
+											exit={{ opacity: 0, y: -20 }}
+											transition={{ duration: 0.5, delay: index * 0.05 }}
+										>
+											{/* Year indicator */}
+											{index === 0 ||
+												visibleAchievements[index - 1]?.year !== achievement.year ? (
+												<div className="flex items-center gap-3 mb-3 mt-2">
+													<div className="
         w-12 h-12 rounded-full 
         bg-gray-200 dark:bg-white/10
         flex items-center justify-center
       ">
-        <span className="text-xs font-bold text-gray-600 dark:text-gray-300">
-          {achievement.year}
-        </span>
-      </div>
-      <div className="
+														<span className="text-xs font-bold text-gray-600 dark:text-gray-300">
+															{achievement.year}
+														</span>
+													</div>
+													<div className="
         flex-1 h-px 
         bg-gradient-to-r 
         from-gray-300 dark:from-white/20 
         to-transparent
       " />
-    </div>
-  ) : null}
+												</div>
+											) : null}
 
-  {/* Achievement Card */}
-  <div
-    className="
+											{/* Achievement Card */}
+											<div
+												className="
       bg-white/20 dark:bg-black/40
       backdrop-blur-md
       border border-white/30 dark:border-white/10
@@ -335,40 +335,40 @@ export default function Education() {
       hover:shadow-xl
        hover:grayscale-0
     "
-  >
-    <div className="flex items-center gap-4">
-      {/* Icon */}
-      <div
-        className={`
+											>
+												<div className="flex items-center gap-4">
+													{/* Icon */}
+													<div
+														className={`
           aspect-square w-10 rounded-full
           bg-gradient-to-r ${achievement.color}
           flex items-center justify-center
           transition-all duration-300
         `}
-      >
-        <FontAwesomeIcon
-          icon={achievement.icon}
-          className="text-white h-5 w-5"
-        />
-      </div>
+													>
+														<FontAwesomeIcon
+															icon={achievement.icon}
+															className="text-white h-5 w-5"
+														/>
+													</div>
 
-      {/* Content */}
-      <div>
-        <h3 className="font-medium text-black dark:text-white">
-          {achievement.title}
-        </h3>
+													{/* Content */}
+													<div>
+														<h3 className="font-medium text-black dark:text-white">
+															{achievement.title}
+														</h3>
 
-        <p className="text-sm text-gray-700 dark:text-gray-300">
-          {achievement.subtitle}
-        </p>
+														<p className="text-sm text-gray-700 dark:text-gray-300">
+															{achievement.subtitle}
+														</p>
 
-        <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-          {achievement.date}
-        </div>
-      </div>
-    </div>
-  </div>
-</motion.div>
+														<div className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+															{achievement.date}
+														</div>
+													</div>
+												</div>
+											</div>
+										</motion.div>
 
 									))}
 								</AnimatePresence>

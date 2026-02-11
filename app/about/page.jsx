@@ -13,7 +13,7 @@ import Experience from "./components/experience.jsx";
 import Education from "./components/education.jsx";
 
 // images
-import Hero from "@/public/image/me2.jpg";
+const Hero = "/image/me2.jpg";
 
 import Hr from "@/components/Hr";
 import About from "./components/about/about.jsx";
@@ -45,7 +45,6 @@ export default function Page() {
 								alt="Alvalen Shafel"
 								layout="fill"
 								objectFit="cover"
-								placeholder="blur"
 							/>
 						</motion.div>
 					</div>

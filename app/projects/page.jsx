@@ -6,11 +6,10 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import OneStoryPlanet from "@/public/image/projects/web/one-storyplanet/onestoryplanet-4.png";
-import OneStoryPlanet2 from "@/public/image/projects/web/one-storyplanet/onestoryplanet-2.png";
-import OneStoryPlanet3 from "@/public/image/projects/web/one-storyplanet/onestoryplanet-3.png";
-
-import ProjectAll from "@/public/image/projects.png";
+const OneStoryPlanet = "/image/projects/web/one-storyplanet/onestoryplanet-4.png";
+const OneStoryPlanet2 = "/image/projects/web/one-storyplanet/onestoryplanet-2.png";
+const OneStoryPlanet3 = "/image/projects/web/one-storyplanet/onestoryplanet-3.png";
+const ProjectAll = "/image/projects.png";
 
 import Hr from "@/components/Hr";
 import ProjectCard from "./components/ProjectCard";
@@ -50,7 +49,6 @@ export default function Page() {
 								alt="Abdul Ahad"
 								layout="fill"
 								objectFit="cover"
-								placeholder="blur"
 							/>
 						</motion.div>
 					</div>
@@ -104,7 +102,6 @@ export default function Page() {
 										alt="OneStoryPlanet"
 										layout="fill"
 										objectFit="cover"
-										placeholder="blur"
 										className="rat"
 									/>
 								</motion.div>
@@ -128,7 +125,6 @@ export default function Page() {
 										alt="OneStoryPlanet"
 										layout="fill"
 										objectFit="cover"
-										placeholder="blur"
 										objectPosition="0% 0%"
 									/>
 								</motion.div>
@@ -154,7 +150,6 @@ export default function Page() {
 										alt="OneStoryPlanet2"
 										layout="fill"
 										objectFit="cover"
-										placeholder="blur"
 									/>
 								</motion.div>
 							</div>

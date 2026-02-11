@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
-import Me1 from "@/public/image/me1.jpg";
-import Me2 from "@/public/image/me2.jpg";
-import Me3 from "@/public/image/me3.jpg";
+const Me1 = "/image/me.jpg";
+const Me2 = "/image/me2.jpg";
+const Me3 = "/image/me3.jpg";
 import Hr from "@/components/Hr";
 
 function Title() {
@@ -38,7 +38,6 @@ export default function About() {
 									alt="Abdul Ahad"
 									layout="fill"
 									objectFit="cover"
-									placeholder="blur"
 								/>
 							</motion.div>
 						</div>
@@ -61,7 +60,6 @@ export default function About() {
 									alt="Alvalens"
 									layout="fill"
 									objectFit="cover"
-									placeholder="blur"
 								/>
 							</motion.div>
 						</div>
@@ -86,7 +84,6 @@ export default function About() {
 									alt="Abdul Ahad"
 									layout="fill"
 									objectFit="cover"
-									placeholder="blur"
 								/>
 							</motion.div>
 						</div>

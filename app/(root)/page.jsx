@@ -11,10 +11,10 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/me.jpg";
-import MeAbout from "@/public/image/me2.jpg";
-import Setup from "@/public/image/setup.jpg";
-import ProjectAll from "@/public/image/projects.png";
+const Me = "/image/me.jpg";
+const MeAbout = "/image/me2.jpg";
+const Setup = "/image/setup.jpg";
+const ProjectAll = "/image/projects.png";
 import Hr from "@/components/Hr";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -55,7 +55,6 @@ const MyPage = () => {
 												height={500}
 												className="rounded-full w-full h-full object-cover "
 												alt="abdul ahad"
-												placeholder="blur"
 											/>
 										</div>
 									</div>
@@ -127,7 +126,6 @@ const MyPage = () => {
 											src={Me}
 											width={400}
 											height={550}
-											placeholder="blur"
 											alt="abdul ahad"
 											className="rounded-full w-full h-full object-cover"
 										/>
@@ -161,7 +159,6 @@ const MyPage = () => {
 											layout="fill"
 											className="object-cover"
 											alt="abdul ahad"
-											placeholder="blur"
 										/>
 									</motion.div>
 								</div>
@@ -230,7 +227,6 @@ const MyPage = () => {
 											layout="fill"
 											className="object-cover"
 											alt="abdul ahad Setup"
-											placeholder="blur"
 										/>
 									</motion.div>
 								</div>
@@ -298,7 +294,6 @@ const MyPage = () => {
 											layout="fill"
 											className="object-cover"
 											alt="abdul ahad Setup"
-											placeholder="blur"
 										/>
 									</motion.div>
 								</div>
