@@ -35,7 +35,7 @@ const PROJECTS = [
 		description: "WoolfrApp is a next-generation LGBTQ+ social platform built for gay, bisexual, transgender, and queer communities. Enables real-time communication, community discovery, and key match–based profile connections.",
 		skills: ["Bootstrap CSS", "Core PHP", "Node.js", "Socket.IO", "Google Cloud Vision API", "Leaflet Maps", "Database", "MySQL", "UI/UX Design", "Responsive Design"],
 		url: "https://woolfrapp.com",
-		thumbnail: "/image/projects/web/woolfr/woolfer_thumbnale.png"
+		thumbnail: "/image/projects/web/woolfr/login.png"
 	},
 	{
 		id: "p3",
@@ -45,7 +45,7 @@ const PROJECTS = [
 		description: "A unified marketplace for freelance and handyman services for businesses and individuals. Connects users with skilled professionals across digital, technical, and on-site services.",
 		skills: ["Html/CSS", "Laravel", "MySQL", "Database", "UI/UX Design"],
 		url: "https://wrqit.nextolive.com",
-		thumbnail: "/image/projects/web/wrqit/wrqit_thubnale.png"
+		thumbnail: "/image/projects/web/wrqit/homepage.png"
 	},
 	{
 		id: "p4",
@@ -55,7 +55,7 @@ const PROJECTS = [
 		description: "School Bus Track is a smart platform that helps parents track their children’s daily school transportation. Provides real-time GPS tracking of school buses for accurate live location updates.",
 		skills: ["React", "Leaflet Maps", "GPS Tracking", "Firebase Realtime Messaging", "Laravel", "MariaDB", "Database"],
 		url: "https://schoolbustrack.com",
-		thumbnail: "/image/projects/web/bustracking/bustracking_thubnale.png"
+		thumbnail: "/image/projects/web/bustracking/login.png"
 	},
 	{
 		id: "p5",
@@ -65,7 +65,7 @@ const PROJECTS = [
 		description: "OpHop is a centralized admin platform for managing customers, organizations, and stores. Provides tools to manage products, bins, and categories efficiently.",
 		skills: ["Vue.js", "Tailwind CSS", "Laravel", "MySQL", "Database", "UI/UX Design", "Admin Dashboard", "Responsive Design"],
 		url: "https://ophop.org",
-		thumbnail: "/image/projects/web/ophop/ophop_dashboard_thubnale.png"
+		thumbnail: "/image/projects/web/ophop/dashboard.png"
 	},
 	{
 		id: "p6",
@@ -75,7 +75,7 @@ const PROJECTS = [
 		description: "A role-based inventory and project management system designed for bookie operations. Supports Admin, Bookie, and User roles with controlled access and permissions.",
 		skills: ["React", "Node.js", "mongoDB", "Role-Based Access Control"],
 		url: "http://108.60.209.215:3738",
-		thumbnail: "/image/projects/web/bookieinventorymanagement/bookie_thumbnale.png"
+		thumbnail: "/image/projects/web/bookieinventorymanagement/homepage.png"
 	},
 	{
 		id: "p7",
@@ -85,7 +85,7 @@ const PROJECTS = [
 		description: "Nutri Calorie App is a smart health and nutrition tracking application for daily wellness. Calculates daily calorie intake based on food, drinks, and meal types.",
 		skills: ["React", "Node.js", "mongoDB", "Nutrition API", "Calorie Calculation", "Chatgpt API", "Html/CSS", "Tailwind CSS"],
 		url: "http://108.60.209.215:3210",
-		thumbnail: "/image/projects/web/nutri/nutri_thumbnale.png"
+		thumbnail: "/image/projects/web/nutri/dashboard.png"
 	},
 	{
 		id: "p8",
@@ -95,7 +95,7 @@ const PROJECTS = [
 		description: "Adult Playpen is an adult-focused social sharing network inspired by Facebook-style interactions. Supports multiple connection intents including Dating, Relationships, Friends, and Networking.",
 		skills: ["React", "Node.js", "Socket.IO", "MongoDB", "Google Cloud Vision API", "Chatgpt API", "Role-Based Access Control", "UI/UX Design", "Responsive Design"],
 		url: "https://adultplaypen.com/",
-		thumbnail: "/image/projects/web/adultplaypen/adult_thubnale.png"
+		thumbnail: "/image/projects/web/adultplaypen/login.png"
 	},
 	{
 		id: "p9",
@@ -105,7 +105,7 @@ const PROJECTS = [
 		description: "A digital reward platform designed to incentivize user engagement and activity. Allows users to earn rewards through tasks, actions, or participation.",
 		skills: ["Html/CSS", "Laravel", "MySQL", "Database", "UI/UX Design"],
 		url: "https://rewardapp.com",
-		thumbnail: "/image/projects/web/rewardapp/reward_thubnale.png"
+		thumbnail: "/image/projects/web/rewardapp/homepage.png"
 	}
 ];
 

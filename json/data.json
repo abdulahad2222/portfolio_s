@@ -50,7 +50,7 @@
       "year": "2023",
       "preview": "https://woolfrapp.com",
       "code": "",
-      "thumbnail": "/image/projects/web/woolfr/woolfer_thumbnale.png",
+      "thumbnail": "/image/projects/web/woolfr/login.png",
       "images": [
         "/image/projects/web/woolfr/dashboard.png",
         "/image/projects/web/woolfr/gallery.png",
@@ -87,7 +87,7 @@
       "year": "2024",
       "preview": "https://wrqit.nextolive.com",
       "code": "",
-      "thumbnail": "/image/projects/web/wrqit/wrqit_thubnale.png",
+      "thumbnail": "/image/projects/web/wrqit/homepage.png",
       "images": [
         "/image/projects/web/wrqit/homepage.png",
         "/image/projects/web/wrqit/after_login_homepage.png",
@@ -119,11 +119,11 @@
       "year": "2023",
       "preview": "https://schoolbustrack.com",
       "code": "",
-      "thumbnail": "/image/projects/web/bustracking/bustracking_thubnale.png",
+      "thumbnail": "/image/projects/web/bustracking/login.png",
       "images": [
-        "/image/projects/web/bustracking/login.png",
         "/image/projects/web/bustracking/school_dashboard.png",
-        "/image/projects/web/bustracking/student_list.png"
+        "/image/projects/web/bustracking/student_list.png",
+        "/image/projects/web/bustracking/admin_dashboard.png"
       ],
       "tech": [
         "React",
@@ -153,11 +153,11 @@
       "year": "2024",
       "preview": "https://ophop.org",
       "code": "",
-      "thumbnail": "/image/projects/web/ophop/ophop_dashboard_thubnale.png",
+      "thumbnail": "/image/projects/web/ophop/dashboard.png",
       "images": [
-        "/image/projects/web/ophop/dashboard.png",
         "/image/projects/web/ophop/store_dashboard.png",
-        "/image/projects/web/ophop/manage_products.png"
+        "/image/projects/web/ophop/manage_products.png",
+        "/image/projects/web/ophop/login.png"
       ],
       "tech": [
         "Vue.js",
@@ -188,7 +188,7 @@
       "year": "2025",
       "preview": "http://108.60.209.215:3738",
       "code": "",
-      "thumbnail": "/image/projects/web/bookieinventorymanagement/bookie_thumbnale.png",
+      "thumbnail": "/image/projects/web/bookieinventorymanagement/homepage.png",
       "images": [
         "/image/projects/web/bookieinventorymanagement/homepage.png"
       ],
@@ -217,11 +217,12 @@
       "year": "2025",
       "preview": "http://108.60.209.215:3210",
       "code": "",
-      "thumbnail": "/image/projects/web/nutri/nutri_thumbnale.png",
+      "thumbnail": "/image/projects/web/nutri/dashboard.png",
       "images": [
         "/image/projects/web/nutri/diete.png",
         "/image/projects/web/nutri/foods.png",
-        "/image/projects/web/nutri/profile.png"
+        "/image/projects/web/nutri/profile.png",
+        "/image/projects/web/nutri/login.png"
       ],
       "tech": [
         "React",
@@ -252,7 +253,7 @@
       "year": "2025",
       "preview": "https://adultplaypen.com/",
       "code": "",
-      "thumbnail": "/image/projects/web/adultplaypen/adult_thubnale.png",
+      "thumbnail": "/image/projects/web/adultplaypen/login.png",
       "images": [
         "/image/projects/web/adultplaypen/login.png"
       ],
@@ -286,7 +287,7 @@
       "year": "2022",
       "preview": "https://rewardapp.com",
       "code": "",
-      "thumbnail": "/image/projects/web/rewardapp/reward_thubnale.png",
+      "thumbnail": "/image/projects/web/rewardapp/homepage.png",
       "images": [
         "/image/projects/web/rewardapp/after_login_dashboard.png",
         "/image/projects/web/rewardapp/community_page.png",
