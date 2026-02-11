@@ -10,8 +10,8 @@ import Image from "next/image";
 
 // Edit CONTACTS below to include your real contact details.
 const CONTACTS = {
-	email: "shahidansarijit1998@gmail.com",
-	phone: "9699020007",
+	email: "shahidjit1998@gmail.com",
+	phone: "7651986951",
 	website: "/",
 };
 
@@ -19,53 +19,93 @@ const CONTACTS = {
 const PROJECTS = [
 	{
 		id: "p1",
-		name: "GamaNeo247",
-		title: "Online Betting Platform",
-		year: "02/2025 - Present",
-		description: "Developed a responsive, real-time betting and casino platform using React.js and Node.js. Integrated third-party APIs for live sports data, built dynamic UI components, and translated Figma/PSD designs into mobile-first interfaces. Ensured cross-browser compatibility and accessibility.",
-		skills: ["React.js", "Node.js", "JavaScript", "CSS", "Tailwind", "Third-Party API Integration", "Git", "Responsive Design"],
-		url: "https://gamaneo247.com/",
-		thumbnail: "/image/projects/web/gamaneo247/gamaneo247-thumbnail.jpg"
+		name: "OneStoryPlanet",
+		title: "Social Networking Platform (Story-centric)",
+		year: "2024",
+		description: "OneStoryPlanet is a story-first social platform designed to empower individuals to share authentic life experiences through written, audio, and video formats—fostering meaningful human connection, empathy, and unity in a judgment-free environment.",
+		skills: ["React", "Next.js", "Inertia.js", "Tailwind CSS", "Node.js", "Laravel", "Database", "AWS", "UI/UX Design", "Responsive Design", "Component-based Architecture"],
+		url: "https://onestoryplanet.com",
+		thumbnail: "/image/projects/web/onestory/onestoryplanet-thumbnale-img.png"
 	},
 	{
 		id: "p2",
-		name: "DOD (Doctors on Duty)",
-		title: "Medical Appointment Booking System",
-		year: "09/2024 - Present",
-		description: "Designed and implemented a user-friendly website for scheduling doctor appointments and streamlining the appointment booking process. Created responsive user interfaces using HTML, CSS, Bootstrap, and JavaScript. Applied SEO strategies and digital marketing techniques. Utilized Adobe Photoshop and Adobe Illustrator for UI/UX design. Fully responsive design for all devices including Mobile, Tablet, and Desktop.",
-		skills: ["HTML5", "CSS3", "Bootstrap", "JavaScript", ".NET", "Adobe Photoshop", "Adobe Illustrator", "Responsive Design", "SEO", "UI/UX Design"],
-		url: "https://www.dodind.com/",
-		thumbnail: "/image/projects/web/dod/dod-thumbnail.jpg"
+		name: "WoolfrApp",
+		title: "LGBTQ+ Social Platform",
+		year: "2023",
+		description: "WoolfrApp is a next-generation LGBTQ+ social platform built for gay, bisexual, transgender, and queer communities. Enables real-time communication, community discovery, and key match–based profile connections.",
+		skills: ["Bootstrap CSS", "Core PHP", "Node.js", "Socket.IO", "Google Cloud Vision API", "Leaflet Maps", "Database", "MySQL", "UI/UX Design", "Responsive Design"],
+		url: "https://woolfrapp.com",
+		thumbnail: "/image/projects/web/woolfr/woolfer_thumbnale.png"
 	},
 	{
 		id: "p3",
-		name: "News Website Webapp",
-		title: "React News Application",
-		year: "03/2024 - 05/2024",
-		description: "Developed a dynamic and responsive news website using React.js, integrating Axios to fetch real-time news data based on user-selected country and category filters. Implemented dynamic filtering capabilities allowing users to filter news articles by country and category. Ensured fully responsive design for various devices.",
-		skills: ["React.js", "Axios", "Fetch API", "Bootstrap", "Material UI", "CSS"],
-		url: "https://ahadnews.netlify.app/",
-		thumbnail: "/image/projects/web/news-app/news-thumbnail.jpg"
+		name: "Freelancer & Handyman Marketplace",
+		title: "Unified Marketplace",
+		year: "2024",
+		description: "A unified marketplace for freelance and handyman services for businesses and individuals. Connects users with skilled professionals across digital, technical, and on-site services.",
+		skills: ["Html/CSS", "Laravel", "MySQL", "Database", "UI/UX Design"],
+		url: "https://wrqit.nextolive.com",
+		thumbnail: "/image/projects/web/wrqit/wrqit_thubnale.png"
 	},
 	{
 		id: "p4",
-		name: "React Image Searching Webapp",
-		title: "Image Search Application",
-		year: "02/2024 - Present",
-		description: "Developed a React-based image searching application using Fetch API to retrieve and display images dynamically. Contributed to the project's UI design, adhering to design principles for an intuitive and visually appealing interface. Implemented responsive design principles, ensuring a consistent and user-friendly experience across various devices. Successfully integrated external APIs, showcasing proficiency in asynchronous programming and data fetching.",
-		skills: ["React", "JavaScript", "Fetch API", "Bootstrap", "Axios", "CSS", "HTML"],
-		url: "https://searchingimgahad.netlify.app",
-		thumbnail: "/image/projects/web/image-search/image-search-thumbnail.jpg"
+		name: "School Bus Track",
+		title: "Smart Transportation Tracker",
+		year: "2023",
+		description: "School Bus Track is a smart platform that helps parents track their children’s daily school transportation. Provides real-time GPS tracking of school buses for accurate live location updates.",
+		skills: ["React", "Leaflet Maps", "GPS Tracking", "Firebase Realtime Messaging", "Laravel", "MariaDB", "Database"],
+		url: "https://schoolbustrack.com",
+		thumbnail: "/image/projects/web/bustracking/bustracking_thubnale.png"
 	},
 	{
 		id: "p5",
-		name: "OneStoryPlanet",
-		title: "Social Networking Platform (Story-centric)",
-		year: "2024 - Present",
-		description: "OneStoryPlanet is a story-first social platform designed to empower individuals to share authentic life experiences through written, audio, and video formats—fostering meaningful human connection, empathy, and unity in a judgment-free environment. Designed and developed a story-centric social platform where users are encouraged to share personal narratives rather than short, attention-driven posts, creating deeper emotional engagement and authenticity. Built a custom story editor that allows users to create, edit, and format personal stories with draft saving capabilities. Implemented multi-format story sharing supporting text, audio, and video content. Focused on building a platform centered on connection over validation, encouraging empathy, unity, and shared human experience. Designed an intuitive, distraction-free interface that keeps the storyteller in focus and enhances readability and emotional impact.",
-		skills: ["React", "Next.js", "Tailwind CSS", "Node.js", "Laravel", "Database", "AWS", "UI/UX Design", "Responsive Design", "Component-based Architecture"],
-		url: "https://onestoryplanet.com",
-		thumbnail: "/image/projects/web/onestoryplanet/onestoryplanet-thumbnail.jpg"
+		name: "OpHop Admin Platform",
+		title: "Admin Management Platform",
+		year: "2024",
+		description: "OpHop is a centralized admin platform for managing customers, organizations, and stores. Provides tools to manage products, bins, and categories efficiently.",
+		skills: ["Vue.js", "Tailwind CSS", "Laravel", "MySQL", "Database", "UI/UX Design", "Admin Dashboard", "Responsive Design"],
+		url: "https://ophop.org",
+		thumbnail: "/image/projects/web/ophop/ophop_dashboard_thubnale.png"
+	},
+	{
+		id: "p6",
+		name: "Bookie Inventory Management System",
+		title: "Inventory & Project Management",
+		year: "2025",
+		description: "A role-based inventory and project management system designed for bookie operations. Supports Admin, Bookie, and User roles with controlled access and permissions.",
+		skills: ["React", "Node.js", "mongoDB", "Role-Based Access Control"],
+		url: "http://108.60.209.215:3738",
+		thumbnail: "/image/projects/web/bookieinventorymanagement/bookie_thumbnale.png"
+	},
+	{
+		id: "p7",
+		name: "Nutri Calorie App",
+		title: "Health & Nutrition Tracker",
+		year: "2025",
+		description: "Nutri Calorie App is a smart health and nutrition tracking application for daily wellness. Calculates daily calorie intake based on food, drinks, and meal types.",
+		skills: ["React", "Node.js", "mongoDB", "Nutrition API", "Calorie Calculation", "Chatgpt API", "Html/CSS", "Tailwind CSS"],
+		url: "http://108.60.209.215:3210",
+		thumbnail: "/image/projects/web/nutri/nutri_thumbnale.png"
+	},
+	{
+		id: "p8",
+		name: "Adult Playpen",
+		title: "Social Sharing Network",
+		year: "2025",
+		description: "Adult Playpen is an adult-focused social sharing network inspired by Facebook-style interactions. Supports multiple connection intents including Dating, Relationships, Friends, and Networking.",
+		skills: ["React", "Node.js", "Socket.IO", "MongoDB", "Google Cloud Vision API", "Chatgpt API", "Role-Based Access Control", "UI/UX Design", "Responsive Design"],
+		url: "https://adultplaypen.com/",
+		thumbnail: "/image/projects/web/adultplaypen/adult_thubnale.png"
+	},
+	{
+		id: "p9",
+		name: "Reward App",
+		title: "User Engagement Platform",
+		year: "2022",
+		description: "A digital reward platform designed to incentivize user engagement and activity. Allows users to earn rewards through tasks, actions, or participation.",
+		skills: ["Html/CSS", "Laravel", "MySQL", "Database", "UI/UX Design"],
+		url: "https://rewardapp.com",
+		thumbnail: "/image/projects/web/rewardapp/reward_thubnale.png"
 	}
 ];
 
@@ -100,29 +140,37 @@ const DEMO_QUESTIONS = {
 		{ id: "q4c", text: "Can I get a custom quote?" },
 	],
 	q5: [
-		{ id: "q5a", text: "Tell me about GamaNeo247" },
-		{ id: "q5b", text: "Tell me about DOD" },
-		{ id: "q5c", text: "Tell me about News Website" },
-		{ id: "q5d", text: "Tell me about Image Search App" },
-		{ id: "q5e", text: "Tell me about OneStoryPlanet" },
+		{ id: "q5a", text: "Tell me about OneStoryPlanet" },
+		{ id: "q5b", text: "Tell me about WoolfrApp" },
+		{ id: "q5c", text: "Tell me about Freelancer Marketplace" },
+		{ id: "q5d", text: "Tell me about School Bus Track" },
+		{ id: "q5e", text: "Tell me about OpHop Admin" },
+		{ id: "q5f", text: "Tell me about Bookie Inventory" },
+		{ id: "q5g", text: "Tell me about Nutri Calorie App" },
+		{ id: "q5h", text: "Tell me about Adult Playpen" },
+		{ id: "q5i", text: "Tell me about Reward App" },
 	],
 };
 
 // Demo answers for each question
 const DEMO_ANSWERS = {
 	q1: "We offer a wide range of services including web development, mobile apps, digital marketing, and consulting. Which specific service interests you?",
-	q2: "You can reach us via email at shahidansarijit1998@gmail.com or call us at 9699020007. We're here to help!",
+	q2: "You can reach us via email at shahidjit1998@gmail.com or call us at 7651986951. We're here to help!",
 	q3: "Our business hours are Monday to Friday, 9 AM to 6 PM. We're also available for urgent matters outside these hours.",
 	q4: "Our pricing varies based on the project scope and requirements. We offer competitive rates and can provide a custom quote. Would you like more details?",
 	q5: "Here are some of my recent projects. Click on any project to learn more about it!",
 	q1a: "Service A includes comprehensive web development solutions with modern frameworks and responsive design.",
 	q1b: "Service B focuses on mobile app development for both iOS and Android platforms.",
 	q1c: "Yes! We specialize in custom solutions tailored to your specific business needs.",
-	q5a: `**GamaNeo247** - Online Betting Platform\n\n**Duration:** 02/2025 - Present\n\n**Description:** ${PROJECTS[0].description}\n\n**Technologies:** ${PROJECTS[0].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[0].url}`,
-	q5b: `**DOD (Doctors on Duty)** - Medical Appointment Booking System\n\n**Duration:** 09/2024 - Present\n\n**Description:** ${PROJECTS[1].description}\n\n**Technologies:** ${PROJECTS[1].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[1].url}`,
-	q5c: `**News Website Webapp** - React News Application\n\n**Duration:** 03/2024 - 05/2024\n\n**Description:** ${PROJECTS[2].description}\n\n**Technologies:** ${PROJECTS[2].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[2].url}`,
-	q5d: `**React Image Searching Webapp** - Image Search Application\n\n**Duration:** 02/2024 - Present\n\n**Description:** ${PROJECTS[3].description}\n\n**Technologies:** ${PROJECTS[3].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[3].url}`,
-	q5e: `**OneStoryPlanet** - Social Networking Platform (Story-centric)\n\n**Duration:** 2024 - Present\n\n**Description:** ${PROJECTS[4].description}\n\n**Technologies:** ${PROJECTS[4].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[4].url}`,
+	q5a: `**OneStoryPlanet** - Social Networking Platform (Story-centric)\n\n**Duration:** 2024\n\n**Description:** ${PROJECTS[0].description}\n\n**Technologies:** ${PROJECTS[0].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[0].url}`,
+	q5b: `**WoolfrApp** - LGBTQ+ Social Platform\n\n**Duration:** 2023\n\n**Description:** ${PROJECTS[1].description}\n\n**Technologies:** ${PROJECTS[1].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[1].url}`,
+	q5c: `**Freelancer & Handyman Marketplace** - Unified Marketplace\n\n**Duration:** 2024\n\n**Description:** ${PROJECTS[2].description}\n\n**Technologies:** ${PROJECTS[2].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[2].url}`,
+	q5d: `**School Bus Track** - Smart Transportation Tracker\n\n**Duration:** 2023\n\n**Description:** ${PROJECTS[3].description}\n\n**Technologies:** ${PROJECTS[3].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[3].url}`,
+	q5e: `**OpHop Admin Platform** - Admin Management Platform\n\n**Duration:** 2024\n\n**Description:** ${PROJECTS[4].description}\n\n**Technologies:** ${PROJECTS[4].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[4].url}`,
+	q5f: `**Bookie Inventory Management System** - Inventory & Project Management\n\n**Duration:** 2025\n\n**Description:** ${PROJECTS[5].description}\n\n**Technologies:** ${PROJECTS[5].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[5].url}`,
+	q5g: `**Nutri Calorie App** - Health & Nutrition Tracker\n\n**Duration:** 2025\n\n**Description:** ${PROJECTS[6].description}\n\n**Technologies:** ${PROJECTS[6].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[6].url}`,
+	q5h: `**Adult Playpen** - Social Sharing Network\n\n**Duration:** 2025\n\n**Description:** ${PROJECTS[7].description}\n\n**Technologies:** ${PROJECTS[7].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[7].url}`,
+	q5i: `**Reward App** - User Engagement Platform\n\n**Duration:** 2022\n\n**Description:** ${PROJECTS[8].description}\n\n**Technologies:** ${PROJECTS[8].skills.join(", ")}\n\n**Live Website:** ${PROJECTS[8].url}`,
 	q2a: `Our email is: ${CONTACTS.email}`,
 	q2b: `Our phone number is: ${CONTACTS.phone}`,
 	q2c: "We operate remotely but can arrange in-person meetings if needed. Let me know your location!",
@@ -132,7 +180,7 @@ const DEMO_ANSWERS = {
 	q4a: "Our starting prices vary by service. Basic packages start from affordable rates. Would you like a detailed breakdown?",
 	q4b: "Yes! We offer discounts for long-term projects and bulk services. Let's discuss your needs.",
 	q4c: "Absolutely! We'd be happy to provide a custom quote based on your specific requirements.",
-	q6: "I hold a B.Tech in Computer Science from Jahagirabad Institute of Technology (2018-2022). Currently, I'm working as a PHP Laravel Developer at Next Olive Technologies (since July 2023). Previously, I was a PHP Developer at Aavatar IT Solution (May 2022 - June 2023).",
+	q6: "I hold a B.Tech from Dr. A P J Abdul Kalam Technical University, Lucknow (08/2014 - 04/2018). Currently, I'm working as a PHP Laravel Developer at Next Olive Technologies (since July 2023). Previously, I was a PHP Developer at Aavatar IT Solution (May 2022 - June 2023).",
 };
 
 const Chat = () => {

@@ -57,7 +57,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me2}
-									alt="Alvalens"
+									alt="Shahid Ansari"
 									layout="fill"
 									objectFit="cover"
 								/>

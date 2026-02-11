@@ -6,41 +6,41 @@ import "./nprogress.css";
 import ClientLayout from "./ClientLayout";
 
 export const metadata = {
-    title: "Abdul Ahad | Portofolio",
+	title: "Shahid Ansari | Portfolio",
 
-    description:
-		"My name is Abdul Ahad, I'm a Front-end developer and I'm passionate about it. I'm currently studying at ISBM University.",
+	description:
+		"My name is Shahid Ansari, I'm a PHP Laravel Developer passionate about building secure, scalable, and high-performance web applications.",
 
-    author: "Abdul Ahad",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+	author: "Shahid Ansari",
+	siteUrl: "https://www.alvalens.my.id",
+	applicationName: "Alvalens",
 
-    keywords: [
-		"ahad",
-		"abdul",
-		"ahad abdul",
-		"ahad abdul ahad",
-		"abdul ahad",
-		"abdul portfolio",
-		"ahad porto",
+	keywords: [
+		"shahid",
+		"ansari",
+		"shahid ansari",
+		"shahid ansari portfolio",
+		"laravel developer",
+		"php developer",
+		"backend developer",
 
 	],
 
-    openGraph: {
+	openGraph: {
 		type: "website",
 		url: "#",
-		title: "Abdul Ahad | Portofolio",
-		site_name: "Ahad | Portofolio",
-		description: "My name is Abdul Ahad, This is my portofolio website.",
+		title: "Shahid Ansari | Portfolio",
+		site_name: "Shahid | Portfolio",
+		description: "My name is Shahid Ansari, This is my portfolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
 				url: "/og-image-rev.png",
-				alt: "Ahad Portofolio",
+				alt: "Shahid Portfolio",
 			},
 		],
-		site_name: "Ahad | Portofolio",
+		site_name: "Shahid | Portfolio",
 	}
 };
 

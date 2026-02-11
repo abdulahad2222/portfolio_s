@@ -121,7 +121,7 @@ export default function ProjectCard({ project, index, activeCategory, theme = "f
 	return (
 		<>
 			{project.category.includes(parseInt(activeCategory)) && (
-				<Link href={"projects/" + project.slug} key={index}>
+				<Link href={"/projects/" + project.slug} key={index}>
 					<motion.div
 						className={`z-10 relative flex justify-center items-start flex-col mb-5 md:px-10 w-full h-auto bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-800 
 							dark:to-gray-900 group/card py-20 px-5 md:py-2 aspect-video rounded-2xl shadow-lg 

@@ -139,13 +139,13 @@ export default function Education() {
 						initial={{ opacity: 0, x: -50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
-						<div className="font-medium text-lg mb-4">2018 - 2022</div>
+						<div className="font-medium text-lg mb-4">08/2014 - 04/2018</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Jahagirabad Institute of Technology (JIT),
+								Dr. A P J Abdul Kalam Technical University, Lucknow
 							</h2>
 							<h3 className="text-md font-normal mb-3">
-								Bachelor of Technology in Computer Science (B.Tech CS)
+								Bachelor of Technology
 							</h3>
 							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -184,7 +184,7 @@ export default function Education() {
 									</span>{" "}
 									from
 									<span className="text-black font-medium dark:text-gray-400">
-										{" "}Jahagirabad Institute of Technology (JIT)
+										{" "}Dr. A P J Abdul Kalam Technical University, Lucknow
 									</span>
 									, which provided me with a strong foundation in programming fundamentals,
 									backend engineering, databases, and software engineering principles.

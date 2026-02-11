@@ -1,5 +1,5 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of abdul ahad-porto-2-nextJs.
+// Copyright (C) 2025 Shahid Ansari
+// This file is part of shahid ansari-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
@@ -327,14 +327,14 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										📧{" "}
-										<a href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari," className="text-blue-600 dark:text-blue-400 hover:underline">
-											shahidansarijit1998@gmail.com
+										<a href="mailto:shahidjit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari," className="text-blue-600 dark:text-blue-400 hover:underline">
+											shahidjit1998@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari,"
+											href="mailto:shahidjit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari,"
 											className="flex justify-center items-center bg-gradient-to-r from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700 w-14 h-14 rounded-full text-white hover:from-blue-600 hover:to-blue-700 dark:hover:from-blue-700 dark:hover:to-blue-800 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											transition={{
 												y: { delay: 0.1 },
@@ -346,7 +346,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/abdulahad66"
+											href="https://github.com/shahid-ansari-97"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-800 dark:bg-gray-700 w-14 h-14 rounded-full text-white hover:bg-gray-900 dark:hover:bg-gray-600 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
@@ -375,7 +375,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/abdulahad-dev/"
+											href="https://www.linkedin.com/in/shahid-ansari-developer/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-blue-700 dark:bg-blue-800 w-14 h-14 rounded-full text-white hover:bg-blue-800 dark:hover:bg-blue-900 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"

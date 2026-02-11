@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-const OneStoryPlanet = "/image/projects/web/one-storyplanet/onestoryplanet-4.png";
-const OneStoryPlanet2 = "/image/projects/web/one-storyplanet/onestoryplanet-2.png";
-const OneStoryPlanet3 = "/image/projects/web/one-storyplanet/onestoryplanet-3.png";
+const OneStoryPlanet = "/image/projects/web/onestory/onestoryplanet-4.png";
+const OneStoryPlanet2 = "/image/projects/web/onestory/onestoryplanet-2.png";
+const OneStoryPlanet3 = "/image/projects/web/onestory/onestoryplanet-3.png";
 const ProjectAll = "/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -46,7 +46,7 @@ export default function Page() {
 							className="bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-700 dark:to-gray-800 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 shadow-2xl dark:shadow-2xl">
 							<Image
 								src={ProjectAll}
-								alt="Abdul Ahad"
+								alt="Shahid Ansari"
 								layout="fill"
 								objectFit="cover"
 							/>
@@ -177,7 +177,7 @@ export default function Page() {
 						</p>{" "}
 						<div className="mt-5 flex flex-col sm:flex-row gap-3">
 							<Button variation="primary" theme="blue">
-								<Link href="projects/one-storyplanet">More</Link>
+								<Link href="/projects/onestoryplanet">More</Link>
 							</Button>
 							<Button
 
@@ -286,7 +286,7 @@ bg-gradient-to-r from-blue-500 via-cyan-400 to-violet-500 text-white shadow-lg b
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
 					<Button variation="primary" theme="blue">
-						<Link href="projects/archive">View In Archive</Link>
+						<Link href="/projects/archive">View In Archive</Link>
 					</Button>
 				</motion.div>
 
