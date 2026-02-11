@@ -35,7 +35,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me1}
-									alt="Abdul Ahad"
+									alt="Shahid Ansari"
 									layout="fill"
 									objectFit="cover"
 								/>
@@ -81,7 +81,7 @@ export default function About() {
 								className="w-full h-full">
 								<Image
 									src={Me3}
-									alt="Abdul Ahad"
+									alt="Shahid Ansari"
 									layout="fill"
 									objectFit="cover"
 								/>
@@ -105,62 +105,38 @@ export default function About() {
 						type: "spring",
 					}}>
 					<h2 className="text-2xl font-bold tracking-wider mb-3">
-						Abdul Ahad
+						Shahid Ansari
 					</h2>
 					<p className="dark:text-gray-400 text-gray-600 text-justify title text-lg">
-						Hey there, I’m Abdul Ahad, a
+						Hey there, I&rsquo;m Shahid Ansari, a
 						<span className="dark:text-white text-black font-medium">
-							{" "}passionate Front-End Developer
+							{" "}passionate PHP Laravel Developer
 						</span>{" "}
-						with around
+						with strong expertise in building secure, scalable, and high-performance web applications using
 						<span className="dark:text-white text-black font-medium">
-							{" "}3+ years of professional experience
+							{" "}Laravel and modern development practices.
 						</span>{" "}
-						in building modern, responsive, and user-friendly web applications.
 						Based in
 						<span className="dark:text-white text-black font-medium">
 							{" "}Lucknow, India,
 						</span>{" "}
-						I currently work at
-						<span className="dark:text-white text-black font-medium">
-							{" "}Next Olive Technologies Pvt Ltd,
-						</span>{" "}
-						where I focus on creating scalable UI solutions using
-						<span className="dark:text-white text-black font-medium">
-							{" "}React, Next.js, Tailwind CSS, Bootstrap, Material UI, Ant Design,
-							ShadCN UI, and Framer Motion
-						</span>{" "}
-						alongside modern front-end and ecosystem tools.
+						I focus on architecting powerful backend systems and APIs alongside modern front-end and ecosystem tools.
 						<br /><br />
-						My technical expertise also includes working with
+						My technical expertise includes working with
 						<span className="dark:text-white text-black font-medium">
-							{" "}Headless CMS platforms
+							{" "}MySQL, MongoDB, Node.js, Express.js, Fastify, Firebase, and AWS,
 						</span>{" "}
-						such as
+						enabling me to develop and deploy full-stack applications efficiently. While I also work with frontend technologies like
 						<span className="dark:text-white text-black font-medium">
-							{" "}Strapi, Sanity, and Contentful,
+							{" "}React,
 						</span>{" "}
-						as well as state management and data-handling solutions like
-						<span className="dark:text-white text-black font-medium">
-							{" "}Redux Toolkit, Zustand, React Query,
-						</span>{" "}
-						and API integrations using
-						<span className="dark:text-white text-black font-medium">
-							{" "}REST APIs, Axios, and Fetch.
-						</span>{" "}
+						my core strength lies in backend engineering.
 						<br /><br />
 						I have hands-on experience in developing dashboards, gaming and betting UIs,
 						responsive websites, admin panels, and highly interactive components with a
-						strong emphasis on performance, scalability, and UX. Alongside front-end
-						development, I have a growing interest in
-						<span className="dark:text-white text-black font-medium">
-							{" "}AI-powered web experiences
-						</span>{" "}
-						and continuously explore emerging technologies, design systems, and web
-						performance optimization techniques.
-						In today’s fast-evolving digital world, I strongly believe being a
+						strong emphasis on performance, scalability, and security. In today&rsquo;s fast-evolving digital world, I strongly believe being a
 						<span className="dark:text-white text-black font-medium"> lifelong learner</span> is key to
-						growth. Let’s build something impactful together!
+						growth. Let&rsquo;s build something impactful together!
 					</p>
 
 

@@ -11,77 +11,47 @@ import {
 const experiences = [
 	{
 		id: 1,
-		startDate: "Feb 2022",
-		endDate: "Apr 2023",
-		company: "WebGanges Technologies Private Limited",
-		position: "Front-End Developer / Web Designer",
-		type: "Freelance",
-		location: "Kanpur, Uttar Pradesh, India",
+		startDate: "May 2022",
+		endDate: "Jun 2023",
+		company: "Aavatar IT Solution",
+		position: "PHP Developer",
+		type: "Full-time",
+		location: "Lucknow, Uttar Pradesh, India",
 		description:
-			"Created clean, semantic, and responsive user interfaces using HTML and CSS. Designed visually appealing web pages with a strong focus on usability and user experience. Ensured cross-device compatibility across desktop, tablet, and mobile screens while following modern UI/UX principles.",
+			"Developed and maintained server-side logic using PHP and MySQL. Designed and optimized database schemas, implemented RESTful APIs, and ensured high performance and responsiveness of the application. Collaborated with front-end teams to integrate user-facing elements with server-side logic.",
 		skills: [
+			"PHP",
+			"MySQL",
+			"JavaScript",
+			"REST API",
+			"Database Design",
+			"jQuery",
 			"HTML",
 			"CSS",
-			"Responsive Design",
-			"UI Design",
-			"UX Principles",
-			"Cross-Browser Compatibility",
-			"Mobile-First Design",
 		],
 	},
-
 	{
 		id: 2,
-		startDate: "Apr 2022",
-		endDate: "Jul 2024",
-		company: "Vorrow Technology Solutions",
-		position: "Front-End Developer",
-		type: "Full-time",
-		location: "Lucknow, Uttar Pradesh, India",
-		description:
-			"Developed clean, reusable, and scalable front-end components using HTML, CSS, JavaScript, and React. Worked on responsive websites, dashboards, and admin panels. Collaborated with designers to improve UX and ensured cross-browser compatibility across devices.",
-		skills: [
-			"HTML",
-			"CSS",
-			"JavaScript",
-			"React",
-			"Bootstrap",
-			"Tailwind CSS",
-			"WordPress",
-			"Shopify",
-			"SEO",
-			"Cross-Browser Compatibility",
-			"UI/UX Design",
-		],
-	},
-
-	{
-		id: 3,
-		startDate: "Aug 2024",
+		startDate: "Jul 2023",
 		endDate: "Present",
 		company: "Next Olive Technologies Pvt Ltd",
-		position: "Front-End Developer (UI Developer)",
+		position: "PHP Laravel Developer",
 		type: "Full-time",
 		location: "Lucknow, Uttar Pradesh, India",
 		description:
-			"Building responsive and scalable web applications using React and modern UI frameworks. Collaborate closely with UI/UX teams to convert wireframes and Figma designs into pixel-perfect interfaces. Focus on performance optimization, accessibility (WCAG), and mobile-first development.",
+			"Specializing in building secure, scalable, and high-performance web applications using Laravel. Architecting powerful backend systems and APIs, managing AWS deployments, and working with modern databases like MySQL and MongoDB. Experienced in integrating third-party services and optimizing application performance for high-traffic platforms.",
 		skills: [
-			"React",
-			"Next.js",
-			"JavaScript",
-			"HTML",
-			"CSS",
-			"Tailwind CSS",
-			"Bootstrap",
-			"Material UI",
-			"Ant Design",
-			"ShadCN UI",
-			"Framer Motion",
+			"PHP",
+			"Laravel",
+			"MySQL",
+			"MongoDB",
+			"Node.js",
+			"Firebase",
+			"AWS",
 			"REST API",
 			"Git",
-			"Responsive Design",
-			"Accessibility (WCAG)",
-			"Adobe Illustrator",
+			"Backend Architecture",
+			"Performance Optimization",
 		],
 	},
 ];
@@ -139,7 +109,7 @@ function TimelineCard({ experience, index, isEven }) {
 			<div className="bg-gradient-to-r from-black to-gray-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
 
 				<div className="flex items-center justify-start gap-6">
-					
+
 					<div className="text-center">
 						<div className="text-sm font-bold">{experience.startDate}</div>
 						<div className="text-xs text-gray-300">Start</div>

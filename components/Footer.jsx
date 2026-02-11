@@ -8,7 +8,7 @@ import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
 export default function Footer() {
 	return (
 		<div className="flex justify-center items-center flex-col mt-5 overflow-hidden">
-				<div className="flex justify-center items-center flex-col mt-5 self-center min-h-[50vh]   border-1 border-gray-300 dark:border-gray-700 p-5
+			<div className="flex justify-center items-center flex-col mt-5 self-center min-h-[50vh]   border-1 border-gray-300 dark:border-gray-700 p-5
 				 min-w-[80vw] rounded-lg shadow-lg ">
 				<Link href="/#contact">
 					<motion.h2
@@ -56,7 +56,7 @@ export default function Footer() {
 					<p className="text-gray-700 dark:text-gray-300 text-sm font-medium">
 						&copy;{new Date().getFullYear()} -{" "}
 						<span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent font-bold">
-							Abdul Ahad
+							Shahid Ansari
 						</span>
 					</p>
 					<p className="text-gray-600 dark:text-gray-400 text-xs mt-2">

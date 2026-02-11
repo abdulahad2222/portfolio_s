@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-gradient-to-br from-gray-300 to-gray-400 dark:from-gray-700 dark:to-gray-800 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 shadow-2xl dark:shadow-2xl">
 							<Image
 								src={Hero}
-								alt="Alvalen Shafel"
+								alt="Shahid Ansari"
 								layout="fill"
 								objectFit="cover"
 							/>

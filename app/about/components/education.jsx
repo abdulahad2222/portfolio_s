@@ -57,89 +57,44 @@ export default function Education() {
 		2025: [
 			{
 				icon: faBriefcase,
-				title: "Lead Front-End UI Development",
-				subtitle: "GamaNeo247 – Online Betting Platform",
-				date: "Feb 2025",
+				title: "PHP Laravel Developer",
+				subtitle: "Next Olive Technologies Pvt Ltd (Project: Online Betting Platform)",
+				date: "Present",
 				color: "from-green-500 to-emerald-600",
 			},
-			{
-				icon: faCode,
-				title: "Delivered High-Performance Gaming UI",
-				subtitle: "React-based Real-Time Betting & Casino Platform",
-				date: "Jan 2025",
-				color: "from-indigo-500 to-purple-600",
-			},
 		],
-
 		2024: [
 			{
 				icon: faLaptopCode,
-				title: "Joined as Front-End Developer (UI Developer)",
+				title: "PHP Laravel Developer",
 				subtitle: "Next Olive Technologies Pvt Ltd",
-				date: "Aug 2024",
+				date: "Jan 2024 - Dec 2024",
 				color: "from-blue-500 to-cyan-600",
 			},
-			{
-				icon: faPaintBrush,
-				title: "Built Pixel-Perfect UI from Figma Designs",
-				subtitle: "React, Tailwind CSS, ShadCN UI",
-				date: "Oct 2024",
-				color: "from-pink-500 to-rose-600",
-			},
-			{
-				icon: faChartLine,
-				title: "Improved Website Performance & Accessibility",
-				subtitle: "WCAG Compliance & SEO Optimization",
-				date: "Nov 2024",
-				color: "from-teal-500 to-green-600",
-			},
-			{
-				icon: faUserDoctor,
-				title: "Developed Doctor Appointment Booking Platform",
-				subtitle: "DOD (Doctors on Duty)",
-				date: "Sep 2024",
-				color: "from-red-500 to-rose-600",
-			},
-			{
-				icon: faBookOpen,
-				title: "Built Storytelling-Based Social Network",
-				subtitle: "OneStoryPlanet.com (Global Story Sharing Platform)",
-				date: "Dec 2024 - 2025",
-				color: "from-violet-500 to-purple-600",
-			},
 		],
-
 		2023: [
 			{
-				icon: faBuilding,
-				title: "Key Front-End Contributor",
-				subtitle: "Vorrow Technology Solutions",
-				date: "Jun 2023",
-				color: "from-slate-500 to-gray-600",
+				icon: faLaptopCode,
+				title: "PHP Laravel Developer",
+				subtitle: "Next Olive Technologies Pvt Ltd",
+				date: "Jul 2023 - Dec 2023",
+				color: "from-indigo-500 to-purple-600",
 			},
 			{
-				icon: faMobileAlt,
-				title: "Delivered Multiple Responsive Web Projects",
-				subtitle: "Dashboards, Admin Panels & CMS Websites",
-				date: "Dec 2023",
-				color: "from-orange-500 to-amber-600",
+				icon: faCode,
+				title: "PHP Developer",
+				subtitle: "Aavatar IT Solution",
+				date: "Jan 2023 - Jun 2023",
+				color: "from-slate-500 to-gray-600",
 			},
 		],
-
 		2022: [
 			{
 				icon: faGlobe,
-				title: "Started Professional Career as Front-End Developer",
-				subtitle: "WebGanges Technologies Pvt. Ltd.",
-				date: "Feb 2022",
+				title: "PHP Developer",
+				subtitle: "Aavatar IT Solution",
+				date: "May 2022 - Dec 2022",
 				color: "from-purple-500 to-indigo-600",
-			},
-			{
-				icon: faPalette,
-				title: "Designed & Developed Responsive Websites",
-				subtitle: "HTML, CSS, UX/UI Best Practices",
-				date: "Apr 2022",
-				color: "from-fuchsia-500 to-pink-600",
 			},
 		],
 	};
@@ -184,13 +139,13 @@ export default function Education() {
 						initial={{ opacity: 0, x: -50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8, delay: 0.2 }}>
-						<div className="font-medium text-lg mb-4">2024 - Present</div>
+						<div className="font-medium text-lg mb-4">2018 - 2022</div>
 						<div>
 							<h2 className="font-semibold text-xl">
-								Indian School of Business Management and Administration (ISBM),
+								Jahagirabad Institute of Technology (JIT),
 							</h2>
 							<h3 className="text-md font-normal mb-3">
-								Master of Computer Applications (MCA)
+								Bachelor of Technology in Computer Science (B.Tech CS)
 							</h3>
 							<div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
 								<div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -223,54 +178,37 @@ export default function Education() {
 							</div>
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 dark:text-gray-300 text-justify title text-lg">
-									Aspiring to grow as a professional Software Engineer, I am currently
-									pursuing my
+									I completed my
 									<span className="text-black dark:text-white font-medium">
-										{" "}Master of Computer Applications (MCA)
+										{" "}Bachelor of Technology in Computer Science (B.Tech CS)
 									</span>{" "}
 									from
 									<span className="text-black font-medium dark:text-gray-400">
-										{" "}Indian School of Business Management and Administration (ISBM),
-										Chhattisgarh
-									</span>
-									, where I am strengthening my knowledge in software development,
-									modern web technologies, and problem-solving practices.
-									<br />
-									<br />
-									I have completed my
-									<span className="text-black font-medium dark:text-gray-400">
-										{" "}Bachelor of Computer Applications (BCA)
-									</span>{" "}
-									from
-									<span className="text-black font-medium dark:text-gray-400">
-										{" "}Chhatrapati Shahu Ji Maharaj University (CSJMU), Kanpur
+										{" "}Jahagirabad Institute of Technology (JIT)
 									</span>
 									, which provided me with a strong foundation in programming fundamentals,
-									web development, databases, and software engineering principles.
+									backend engineering, databases, and software engineering principles.
 									<br />
 									<br />
 									With a strong interest in
 									<span className="text-black font-medium dark:text-gray-400">
-										{" "}Front-End Development
+										{" "}Backend Engineering
 									</span>{" "}
-									and scalable UI systems, I continuously apply my academic learning to
-									real-world projects, focusing on performance, accessibility, and
-									user-centric design.
+									and scalable systems, I continuously apply my academic learning to
+									real-world projects, focusing on performance, security, and
+									efficient database management.
 								</p>
 							</div>
 
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-3 py-1 rounded-2xl">
-									MCA (Ongoing)
-								</div>
-								<div className="bg-gray-300 text-black px-3 py-1 rounded-2xl">
-									BCA Graduate
+									B.Tech Graduate
 								</div>
 							</div>
 
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-									GPA: 3.9 out of 4
+									GPA: 3.8 out of 4
 								</div>
 							</div>
 						</div>

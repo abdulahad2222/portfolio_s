@@ -54,7 +54,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="abdul ahad"
+												alt="Shahid Ansari"
 											/>
 										</div>
 									</div>
@@ -66,7 +66,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Abdul Ahad
+										Shahid Ansari
 									</motion.h3>
 									<motion.h1
 										className="text-black dark:text-white text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -76,7 +76,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Front-end Developer
+										PHP Laravel Developer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-600 dark:text-gray-300 leading-[1.7rem]"
@@ -86,10 +86,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hello! I&rsquo;m Abdul Ahad, a passionate junior front-end developer with expertise in modern web technologies like React,
-										Next.js, and Tailwind CSS. I specialize in creating responsive, user-centric applications and love exploring the intersection of
-										web development and artificial intelligence. Currently, I&rsquo;m diving deep into machine learning and generative models to build
-										intelligent applications that make a real impact.
+										Hello! I&rsquo;m Shahid Ansari, a passionate PHP Laravel Developer with strong expertise in PHP and backend development. I specialize in building secure, scalable, and high-performance web applications using Laravel and modern development practices. I have solid experience working with MySQL, MongoDB, Node.js, Express.js, Fastify, Firebase, and AWS, enabling me to develop and deploy full-stack applications efficiently. While I also work with frontend technologies like React, my core strength lies in architecting powerful backend systems and APIs.
 									</motion.p>
 									<motion.div
 										className="buttons flex  sm:flex-row justify-center md:justify-start items-center gap-4 mt-12 w-full"
@@ -126,7 +123,7 @@ const MyPage = () => {
 											src={Me}
 											width={400}
 											height={550}
-											alt="abdul ahad"
+											alt="Shahid Ansari"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -158,7 +155,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="abdul ahad"
+											alt="Shahid Ansari"
 										/>
 									</motion.div>
 								</div>
@@ -226,7 +223,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="abdul ahad Setup"
+											alt="Shahid Ansari Setup"
 										/>
 									</motion.div>
 								</div>
@@ -293,7 +290,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="abdul ahad Setup"
+											alt="Shahid Ansari Setup"
 										/>
 									</motion.div>
 								</div>
@@ -318,7 +315,7 @@ const MyPage = () => {
 												delay: 0.2,
 												type: "spring",
 											}}>
-											I&rsquo;d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about web development and AI, feel free to reach out. I&rsquo;m always open to exciting opportunities and interesting conversations.
+											I&rsquo;d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about backend development, PHP Laravel, or full-stack opportunities, feel free to reach out. I&rsquo;m always open to exciting opportunities and interesting conversations.
 										</motion.p>
 									</div>
 									<motion.p
@@ -330,14 +327,14 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										📧{" "}
-										<a href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello abdul ahad," className="text-blue-600 dark:text-blue-400 hover:underline">
+										<a href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari," className="text-blue-600 dark:text-blue-400 hover:underline">
 											shahidansarijit1998@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello abdul ahad,"
+											href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello Shahid Ansari,"
 											className="flex justify-center items-center bg-gradient-to-r from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700 w-14 h-14 rounded-full text-white hover:from-blue-600 hover:to-blue-700 dark:hover:from-blue-700 dark:hover:to-blue-800 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											transition={{
 												y: { delay: 0.1 },

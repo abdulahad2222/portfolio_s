@@ -11,7 +11,7 @@ import Image from "next/image";
 // Edit CONTACTS below to include your real contact details.
 const CONTACTS = {
 	email: "shahidansarijit1998@gmail.com",
-	phone: "9795837457",
+	phone: "9699020007",
 	website: "/",
 };
 
@@ -77,6 +77,7 @@ const DEMO_QUESTIONS = {
 		{ id: "q3", text: "What are your business hours?" },
 		{ id: "q4", text: "Do you have pricing information?" },
 		{ id: "q5", text: "View my projects" },
+		{ id: "q6", text: "Education & Experience" },
 	],
 	q1: [
 		{ id: "q1a", text: "Tell me more about service A" },
@@ -131,6 +132,7 @@ const DEMO_ANSWERS = {
 	q4a: "Our starting prices vary by service. Basic packages start from affordable rates. Would you like a detailed breakdown?",
 	q4b: "Yes! We offer discounts for long-term projects and bulk services. Let's discuss your needs.",
 	q4c: "Absolutely! We'd be happy to provide a custom quote based on your specific requirements.",
+	q6: "I hold a B.Tech in Computer Science from Jahagirabad Institute of Technology (2018-2022). Currently, I'm working as a PHP Laravel Developer at Next Olive Technologies (since July 2023). Previously, I was a PHP Developer at Aavatar IT Solution (May 2022 - June 2023).",
 };
 
 const Chat = () => {
