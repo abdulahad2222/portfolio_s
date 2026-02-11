@@ -87,10 +87,10 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-									Hello! I&rsquo;m Abdul Ahad, a passionate junior front-end developer with expertise in modern web technologies like React, 
-									Next.js, and Tailwind CSS. I specialize in creating responsive, user-centric applications and love exploring the intersection of 
-									web development and artificial intelligence. Currently, I&rsquo;m diving deep into machine learning and generative models to build 
-									intelligent applications that make a real impact.
+										Hello! I&rsquo;m Abdul Ahad, a passionate junior front-end developer with expertise in modern web technologies like React,
+										Next.js, and Tailwind CSS. I specialize in creating responsive, user-centric applications and love exploring the intersection of
+										web development and artificial intelligence. Currently, I&rsquo;m diving deep into machine learning and generative models to build
+										intelligent applications that make a real impact.
 									</motion.p>
 									<motion.div
 										className="buttons flex  sm:flex-row justify-center md:justify-start items-center gap-4 mt-12 w-full"
@@ -178,16 +178,16 @@ const MyPage = () => {
 									</motion.h1>
 									<Hr theme="purple" />
 									<div className="max-w-2xl">
-									<motion.p
-										className="title  text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] mb-5 word-wrap"
-										initial={{ x: -100, opacity: 0 }}
-										whileInView={{ x: 0, opacity: 1 }}
-										transition={{
-											delay: 0.2,
-											type: "spring",
-										}}>
-										Discover my journey, skills, and passion for creating beautiful and functional web experiences. From my background to my technical expertise and career aspirations.
-									</motion.p>
+										<motion.p
+											className="title  text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] mb-5 word-wrap"
+											initial={{ x: -100, opacity: 0 }}
+											whileInView={{ x: 0, opacity: 1 }}
+											transition={{
+												delay: 0.2,
+												type: "spring",
+											}}>
+											Discover my journey, skills, and passion for creating beautiful and functional web experiences. From my background to my technical expertise and career aspirations.
+										</motion.p>
 									</div>
 
 									<motion.div
@@ -246,17 +246,17 @@ const MyPage = () => {
 										My Projects
 									</motion.h1>
 									<Hr theme="cyan" />
-										<div className="max-w-2xl">
-									<motion.p
-										className="title  text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] mb-5"
-										initial={{ x: -100, opacity: 0 }}
-										whileInView={{ x: 0, opacity: 1 }}
-										transition={{
-											delay: 0.2,
-											type: "spring",
-										}}>
-										Explore a curated selection of my web development and AI projects. Each project showcases my commitment to building scalable, innovative solutions using cutting-edge technologies and best practices.
-									</motion.p>
+									<div className="max-w-2xl">
+										<motion.p
+											className="title  text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] mb-5"
+											initial={{ x: -100, opacity: 0 }}
+											whileInView={{ x: 0, opacity: 1 }}
+											transition={{
+												delay: 0.2,
+												type: "spring",
+											}}>
+											Explore a curated selection of my web development and AI projects. Each project showcases my commitment to building scalable, innovative solutions using cutting-edge technologies and best practices.
+										</motion.p>
 									</div>
 									<motion.div
 										initial={{ y: 40, opacity: 0 }}
@@ -315,16 +315,16 @@ const MyPage = () => {
 									</motion.h1>
 									<Hr theme="pink" />
 									<div className="max-w-2xl">
-									<motion.p
-										className="title text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] md:mb-5"
-										initial={{ x: -100, opacity: 0 }}
-										whileInView={{ x: 0, opacity: 1 }}
-										transition={{
-											delay: 0.2,
-											type: "spring",
-										}}>
-										I&rsquo;d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about web development and AI, feel free to reach out. I&rsquo;m always open to exciting opportunities and interesting conversations.
-									</motion.p>
+										<motion.p
+											className="title text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] md:mb-5"
+											initial={{ x: -100, opacity: 0 }}
+											whileInView={{ x: 0, opacity: 1 }}
+											transition={{
+												delay: 0.2,
+												type: "spring",
+											}}>
+											I&rsquo;d love to hear from you! Whether you have a project in mind, want to collaborate, or just want to chat about web development and AI, feel free to reach out. I&rsquo;m always open to exciting opportunities and interesting conversations.
+										</motion.p>
 									</div>
 									<motion.p
 										className="title text-xl mt-4 tracking-wider text-gray-700 dark:text-gray-300 leading-[1.7rem] mb-5 font-semibold"
@@ -335,14 +335,14 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										📧{" "}
-										<a href="mailto:abdulahadfarooqui73@gmail.com?subject=Hello&body=Hello abdul ahad," className="text-blue-600 dark:text-blue-400 hover:underline">
-											abdulahadfarooqui73@gmail.com
+										<a href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello abdul ahad," className="text-blue-600 dark:text-blue-400 hover:underline">
+											shahidansarijit1998@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:abdulahadfarooqui73@gmail.com?subject=Hello&body=Hello abdul ahad,"
+											href="mailto:shahidansarijit1998@gmail.com?subject=Hello&body=Hello abdul ahad,"
 											className="flex justify-center items-center bg-gradient-to-r from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700 w-14 h-14 rounded-full text-white hover:from-blue-600 hover:to-blue-700 dark:hover:from-blue-700 dark:hover:to-blue-800 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											transition={{
 												y: { delay: 0.1 },
@@ -357,7 +357,7 @@ const MyPage = () => {
 											href="https://github.com/abdulahad66"
 											target="_blank"
 											rel="noopener noreferrer"
-										className="flex justify-center items-center bg-gray-800 dark:bg-gray-700 w-14 h-14 rounded-full text-white hover:bg-gray-900 dark:hover:bg-gray-600 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
+											className="flex justify-center items-center bg-gray-800 dark:bg-gray-700 w-14 h-14 rounded-full text-white hover:bg-gray-900 dark:hover:bg-gray-600 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											initial={{ opacity: 0, y: 40 }}
 											whileInView={{ opacity: 1, y: 0 }}
 											transition={{
@@ -370,7 +370,7 @@ const MyPage = () => {
 											href="#"
 											target="_blank"
 											rel="noopener noreferrer"
-										className="flex justify-center items-center bg-gradient-to-r from-pink-500 to-rose-500 dark:from-pink-600 dark:to-rose-600 w-14 h-14 rounded-full text-white hover:from-pink-600 hover:to-rose-600 dark:hover:from-pink-700 dark:hover:to-rose-700 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
+											className="flex justify-center items-center bg-gradient-to-r from-pink-500 to-rose-500 dark:from-pink-600 dark:to-rose-600 w-14 h-14 rounded-full text-white hover:from-pink-600 hover:to-rose-600 dark:hover:from-pink-700 dark:hover:to-rose-700 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											initial={{ opacity: 0, y: 40 }}
 											whileInView={{ opacity: 1, y: 0 }}
 											transition={{
@@ -386,7 +386,7 @@ const MyPage = () => {
 											href="https://www.linkedin.com/in/abdulahad-dev/"
 											target="_blank"
 											rel="noopener noreferrer"
-										className="flex justify-center items-center bg-blue-700 dark:bg-blue-800 w-14 h-14 rounded-full text-white hover:bg-blue-800 dark:hover:bg-blue-900 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
+											className="flex justify-center items-center bg-blue-700 dark:bg-blue-800 w-14 h-14 rounded-full text-white hover:bg-blue-800 dark:hover:bg-blue-900 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											initial={{ opacity: 0, y: 40 }}
 											whileInView={{ opacity: 1, y: 0 }}
 											transition={{
@@ -399,7 +399,7 @@ const MyPage = () => {
 											href="#"
 											target="_blank"
 											rel="noopener noreferrer"
-										className="flex justify-center items-center bg-indigo-700 dark:bg-indigo-800 w-14 h-14 rounded-full text-white hover:bg-indigo-800 dark:hover:bg-indigo-900 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
+											className="flex justify-center items-center bg-indigo-700 dark:bg-indigo-800 w-14 h-14 rounded-full text-white hover:bg-indigo-800 dark:hover:bg-indigo-900 shadow-lg hover:shadow-xl transition-all ease-in-out duration-300 transform hover:scale-110"
 											initial={{ opacity: 0, y: 40 }}
 											whileInView={{ opacity: 1, y: 0 }}
 											transition={{

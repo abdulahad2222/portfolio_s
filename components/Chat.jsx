@@ -10,8 +10,8 @@ import Image from "next/image";
 
 // Edit CONTACTS below to include your real contact details.
 const CONTACTS = {
-	email: "abdulahadfarooqui73@gmail.com",
-	phone: "9699020007",
+	email: "shahidansarijit1998@gmail.com",
+	phone: "9795837457",
 	website: "/",
 };
 
@@ -110,7 +110,7 @@ const DEMO_QUESTIONS = {
 // Demo answers for each question
 const DEMO_ANSWERS = {
 	q1: "We offer a wide range of services including web development, mobile apps, digital marketing, and consulting. Which specific service interests you?",
-	q2: "You can reach us via email at abdulahadfarooqui73@gmail.com or call us at 9699020007. We're here to help!",
+	q2: "You can reach us via email at shahidansarijit1998@gmail.com or call us at 9699020007. We're here to help!",
 	q3: "Our business hours are Monday to Friday, 9 AM to 6 PM. We're also available for urgent matters outside these hours.",
 	q4: "Our pricing varies based on the project scope and requirements. We offer competitive rates and can provide a custom quote. Would you like more details?",
 	q5: "Here are some of my recent projects. Click on any project to learn more about it!",
@@ -176,16 +176,16 @@ const Chat = () => {
 				setIsDarkMode(false);
 			}
 		};
-		
+
 		checkDarkMode();
-		
+
 		// Watch for dark mode changes
 		const observer = new MutationObserver(checkDarkMode);
 		observer.observe(document.documentElement, {
 			attributes: true,
 			attributeFilter: ['class']
 		});
-		
+
 		return () => observer.disconnect();
 	}, []);
 
@@ -311,7 +311,7 @@ const Chat = () => {
 	function handleContactClick(type) {
 		const contactInfo = CONTACTS[type];
 		if (!contactInfo) return;
-		
+
 		const contactMsg = {
 			id: Date.now() + Math.floor(Math.random() * 1000),
 			author: "owner",
@@ -392,8 +392,8 @@ const Chat = () => {
 						</div>
 					</div>
 
-					<div 
-						ref={listRef} 
+					<div
+						ref={listRef}
 						className="h-[400px] px-4 py-3 overflow-y-auto space-y-3 bg-gray-50 dark:bg-gray-900 project-scrollbar min-h-0"
 						style={{
 							scrollbarWidth: 'thin',
@@ -461,11 +461,10 @@ const Chat = () => {
 											key={q.id}
 											onClick={() => handleQuickReply(q.id, q.text)}
 											disabled={clickedQuestions.has(q.id)}
-											className={`px-4 py-2 text-sm rounded-lg border transition-all text-left ${
-												clickedQuestions.has(q.id)
-													? "bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 border-gray-300 dark:border-gray-600 cursor-not-allowed"
-													: "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-400 dark:hover:border-blue-500 cursor-pointer"
-											}`}
+											className={`px-4 py-2 text-sm rounded-lg border transition-all text-left ${clickedQuestions.has(q.id)
+												? "bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 border-gray-300 dark:border-gray-600 cursor-not-allowed"
+												: "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-400 dark:hover:border-blue-500 cursor-pointer"
+												}`}
 										>
 											{q.text}
 										</button>
@@ -489,7 +488,7 @@ const Chat = () => {
 								<div key={m.id}>
 									<div className={`flex ${m.author === "you" ? "justify-end" : "justify-start"}`}>
 										<div className={`max-w-[80%] px-3 py-2 rounded-lg ${m.author === "you" ? "bg-blue-600 text-white" : "bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-gray-100 dark:border-gray-700"}`}>
-											<div 
+											<div
 												className={`text-sm whitespace-pre-wrap ${isExpanded ? 'max-h-[400px] overflow-y-auto pr-1 project-scrollbar' : ''}`}
 												style={isExpanded ? {
 													scrollbarWidth: 'thin',
@@ -506,83 +505,83 @@ const Chat = () => {
 													{isExpanded ? "Read Less" : "Read More"}
 												</button>
 											)}
-										<div className="text-[10px] opacity-60 text-right mt-1">
-											{new Date(m.time).toLocaleTimeString([], {
-												hour: "2-digit",
-												minute: "2-digit",
-											})}
-										</div>
+											<div className="text-[10px] opacity-60 text-right mt-1">
+												{new Date(m.time).toLocaleTimeString([], {
+													hour: "2-digit",
+													minute: "2-digit",
+												})}
+											</div>
 
 										</div>
 									</div>
 									{m.showProjects && (
 										<div className="mt-3 space-y-3 max-h-[500px] overflow-y-auto pr-2 project-scrollbar" style={{
-												scrollbarWidth: 'thin',
-												scrollbarColor: '#cbd5e1 transparent'
-											}}>
-												{PROJECTS.map((project) => (
-													<div
-														key={project.id}
-														className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-													>
-														<div className="h-40 w-full overflow-hidden bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
-															<Image
-																src={project.thumbnail} 
-																alt={project.name}
-																className="w-full h-full object-cover"
-																onError={(e) => {
-																	const parent = e.target.parentElement;
-																	e.target.style.display = 'none';
-																	if (!parent.querySelector('.fallback-text')) {
-																		const fallback = document.createElement('div');
-																		fallback.className = 'text-gray-600 dark:text-gray-300 font-bold text-lg fallback-text';
-																		fallback.textContent = project.name;
-																		parent.appendChild(fallback);
-																	}
-																}}
-															/>
-														</div>
-														<div className="p-3">
-															<div className="flex items-start justify-between mb-2">
-																<div>
-																	<h4 className="font-semibold text-sm text-gray-900 dark:text-gray-100">{project.title}</h4>
-																	<p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">{project.year}</p>
-																</div>
-															</div>
-															<div className="max-h-32 overflow-y-auto mb-2 pr-1 project-scrollbar" style={{
-																scrollbarWidth: 'thin',
-																scrollbarColor: '#cbd5e1 transparent'
-															}}>
-																<p className="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">{project.description}</p>
-															</div>
-															<div className="flex flex-wrap gap-1 mb-2 max-h-20 overflow-y-auto pr-1 project-scrollbar" style={{
-																scrollbarWidth: 'thin',
-																scrollbarColor: '#cbd5e1 transparent'
-															}}>
-																{project.skills.map((skill, idx) => (
-																	<span
-																		key={idx}
-																		className="px-2 py-0.5 text-[10px] bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded whitespace-nowrap"
-																	>
-																		{skill}
-																	</span>
-																))}
-															</div>
-															<a
-																href={project.url}
-																target="_blank"
-																rel="noopener noreferrer"
-																className="inline-flex items-center gap-1 text-xs text-blue-600 dark:text-blue-400 hover:underline"
-															>
-																Visit Website
-																<svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-																	<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-																</svg>
-															</a>
-														</div>
+											scrollbarWidth: 'thin',
+											scrollbarColor: '#cbd5e1 transparent'
+										}}>
+											{PROJECTS.map((project) => (
+												<div
+													key={project.id}
+													className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+												>
+													<div className="h-40 w-full overflow-hidden bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+														<Image
+															src={project.thumbnail}
+															alt={project.name}
+															className="w-full h-full object-cover"
+															onError={(e) => {
+																const parent = e.target.parentElement;
+																e.target.style.display = 'none';
+																if (!parent.querySelector('.fallback-text')) {
+																	const fallback = document.createElement('div');
+																	fallback.className = 'text-gray-600 dark:text-gray-300 font-bold text-lg fallback-text';
+																	fallback.textContent = project.name;
+																	parent.appendChild(fallback);
+																}
+															}}
+														/>
 													</div>
-												))}
-											</div>
+													<div className="p-3">
+														<div className="flex items-start justify-between mb-2">
+															<div>
+																<h4 className="font-semibold text-sm text-gray-900 dark:text-gray-100">{project.title}</h4>
+																<p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">{project.year}</p>
+															</div>
+														</div>
+														<div className="max-h-32 overflow-y-auto mb-2 pr-1 project-scrollbar" style={{
+															scrollbarWidth: 'thin',
+															scrollbarColor: '#cbd5e1 transparent'
+														}}>
+															<p className="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">{project.description}</p>
+														</div>
+														<div className="flex flex-wrap gap-1 mb-2 max-h-20 overflow-y-auto pr-1 project-scrollbar" style={{
+															scrollbarWidth: 'thin',
+															scrollbarColor: '#cbd5e1 transparent'
+														}}>
+															{project.skills.map((skill, idx) => (
+																<span
+																	key={idx}
+																	className="px-2 py-0.5 text-[10px] bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded whitespace-nowrap"
+																>
+																	{skill}
+																</span>
+															))}
+														</div>
+														<a
+															href={project.url}
+															target="_blank"
+															rel="noopener noreferrer"
+															className="inline-flex items-center gap-1 text-xs text-blue-600 dark:text-blue-400 hover:underline"
+														>
+															Visit Website
+															<svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+																<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+															</svg>
+														</a>
+													</div>
+												</div>
+											))}
+										</div>
 									)}
 									{showReplies && quickReplies && (
 										<div className="mt-2 flex flex-wrap gap-2 justify-start">
@@ -591,11 +590,10 @@ const Chat = () => {
 													key={q.id}
 													onClick={() => handleQuickReply(q.id, q.text)}
 													disabled={clickedQuestions.has(q.id)}
-													className={`px-3 py-1.5 text-xs rounded-full border transition-all ${
-														clickedQuestions.has(q.id)
-															? "bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 border-gray-300 dark:border-gray-600 cursor-not-allowed"
-															: "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-400 dark:hover:border-blue-500 cursor-pointer"
-													}`}
+													className={`px-3 py-1.5 text-xs rounded-full border transition-all ${clickedQuestions.has(q.id)
+														? "bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400 border-gray-300 dark:border-gray-600 cursor-not-allowed"
+														: "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border-gray-300 dark:border-gray-600 hover:bg-blue-50 dark:hover:bg-gray-700 hover:border-blue-400 dark:hover:border-blue-500 cursor-pointer"
+														}`}
 												>
 													{q.text}
 												</button>
